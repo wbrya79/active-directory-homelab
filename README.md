@@ -121,13 +121,6 @@ AdGuard's Query Log showed A and AAAA queries for `doubleclick.net` **blocked** 
 - Ubuntu Linux, DNS forwarding, and blocklist-based filtering
 - Technical validation, troubleshooting, and documentation
 
-## Challenges and Future Improvements
-
-Troubleshooting included VM connectivity, Windows Security log visibility, DNS suffix behavior, and an AdGuard DNS port-binding conflict. Planned enhancements include collecting CLIENT1 logs in Splunk, adding detection alerts and dashboards, integrating AdGuard logs into Splunk, and fixing infrastructure IP/DHCP overlap.
-
-## Project Reference
-
-The foundational Active Directory environment was tutorial-guided, based on **Josh Madakor's Active Directory homelab tutorial** covering VirtualBox, Windows Server, Active Directory, DNS, DHCP, routing/NAT, and a Windows client. Splunk and AdGuard Home were additional components configured for this project. The tutorial's example of bulk-creating approximately 1,000 users is not claimed as completed work here.
 
 ## Conclusion
 
