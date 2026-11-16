@@ -60,9 +60,9 @@ Configured a Windows Server Domain Controller for `mydomain.com`, DNS and DHCP s
 
 ![Active Directory Users](screenshots/AD%20users.png)
 
-![Group Policy configuration](screenshots/03-group-policy.png)
+![Group Policy](screenshots/GPO.png)
 
-![DHCP scope](screenshots/04-dhcp-scope.png)
+![DHCP Scope](screenshots/DHCP.png)
 
 ## 2. Splunk Enterprise — Security Monitoring
 
@@ -86,12 +86,11 @@ An observed Domain Controller event referenced the `a-wbryant` account and showe
 
 **Evidence**
 
-![Splunk log ingestion](screenshots/05-splunk-log-ingestion.png)
+![Splunk Log Ingestion](screenshots/splunk%20log%20ingestion.png)
 
-![Splunk failed logon event](screenshots/06-splunk-failed-login.png)
+![Failed Authentication](screenshots/failed%20authenication.png)
 
-![Splunk authentication investigation](screenshots/07-splunk-investigation.png)
-
+![Failed Login Investigation](screenshots/failed%20attempts.png)
 ## 3. Ubuntu and AdGuard Home — DNS Filtering
 
 Installed AdGuard Home on an Ubuntu VM and configured the Domain Controller to forward external DNS queries to it. Enabled the AdGuard DNS filter and configured Quad9 DNS-over-HTTPS as the upstream resolver.
@@ -106,11 +105,11 @@ AdGuard's Query Log showed A and AAAA queries for `doubleclick.net` **blocked** 
 
 **Evidence**
 
-![AdGuard Home dashboard](screenshots/08-adguard-dashboard.png)
+![AdGuard Dashboard](screenshots/ADguard%20dashboard.png)
 
-![AdGuard DNS blocklists](screenshots/09-adguard-blocklists.png)
+![DNS Blocklist](screenshots/dns%20blocklist.png)
 
-![Blocked DNS query](screenshots/10-adguard-blocked-query.png)
+![Blocked DNS Query](screenshots/blocked%20dns.png)
 
 ## Skills Demonstrated
 
