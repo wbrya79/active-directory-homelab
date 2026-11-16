@@ -56,7 +56,7 @@ Configured a Windows Server Domain Controller for `mydomain.com`, DNS and DHCP s
 
 **Evidence**
 
-![Domain Controller](screenshots/01-domain-controller.png)
+![Domain Controller](screenshots/Domain%20controller.png)
 
 ![Active Directory organizational structure](screenshots/02-active-directory-users.png)
 
